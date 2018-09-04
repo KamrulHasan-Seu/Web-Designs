@@ -1,0 +1,16 @@
+
+@keyframes type {
+    0% {
+        width: 0ch;
+    }
+    100% {
+        width: 9ch;
+    }
+}
+
+.active{
+   border-bottom: 1px solid white;
+}
+
+i
+

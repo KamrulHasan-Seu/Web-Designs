@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto';
+    text-decoration: none;
+    line-height: 30px;
+    list-style: none;
+}
+:root{
+    --nav-padding: calc((100% / 2.86) / 2);
+    --nav-font-color: #82868f;
+    --blue-color: #0ebfdd;
+    --sec-padding-sides: calc(100% / 4.36);
+    --title-heading: 44px;
+    --footer-padding: 60px;
+}
+
+/* Navigation Bar */
+nav{
+    width: 100%;
+    height: 80px;
+    background-color: #f7fdfe;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--nav-font-color);
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+    padding-right: var(--nav-padding);
+    font-size: 15px;
+}
+nav ul li{
+    padding: 20px;
+}
+nav a{
+    color: var(--nav-font-color);
+}
+#logo{
+    font-size: 25px;
+    padding-left: var(--nav-padding);
+}
+.btnBig{
+    color: white;
+    background-color: var(--blue-color);
+    padding: 16px 38px;
+    border-radius: 30px;
+    font-weight: bold;
+    border: 1px solid white;
+    width: 125px;
+    align-self: center;
+}
+
+section{
+    padding:0 var(--sec-padding-sides);
+    text-align: center;
+}
+section h2{
+    font-size: 35px;
+    margin-bottom: 25px;
+}
+/* Our Mission */
+#secMission{
+    color: #f7fdfe;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-content: center;
+    height: 600px;
+    background: url('/img/Mountains.jpg') no-repeat center;
+    background-size: cover;
+    padding-bottom: 90px;
+}
+#secMission h2 span{
+    vertical-align:middle;
+    font-size: 20px;
+}
+
+/* Maps */
+#secMap img{
+    width: 100px;
+}
+
+/* About */
+#secAbout{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 250px;
+
+}
+#secAbout h2{
+    color: var(--blue-color);
+}
+#secAbout p{
+    color: #45494d;
+}
+
+/* Team */
+#secTeam{
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    color: white;
+    background-color:var(--blue-color);
+}
+#members{
+    display: flex;
+    justify-content: center;
+}
+.teamMember{
+    margin: 0 30px;
+}
+.teamMember h4{
+    font-style: italic;
+    font-weight: 400;
+}
+
+/* Map*/
+#secMap{
+    height: 600px;
+    background: url('/img/Map.png')
+}
+
+/* Footer */
+footer{
+    color: white;
+    background-color: #45494d;
+}
+footer a, p{
+    color: #b0b6bc;
+}
+footer ul{
+    display: flex;
+    padding-left: var(--footer-padding);
+}
+footer ul li{
+    padding: 20px;
+}
+#upperPart{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#social{
+    display: flex;
+    padding-right: var(--footer-padding);
+}
+.icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 18px;
+    height: 18px;
+    border: 1px solid #bec4ca;
+    border-radius: 50px;
+    padding: 10px;
+    margin: 5px;
+}
+
+#bottomNav{
+    display: flex;
+    justify-content: flex-end;
+    padding-right: var(--footer-padding);;
+}
+#bottomNav a, p{
+    margin: 10px 0;
+    padding: 0 10px;
+}
+#bottomNav a{
+    border-right: 1px solid #bec4ca;
+}
+hr{
+    background-color: #bec4ca;
+}

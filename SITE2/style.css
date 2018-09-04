@@ -1,0 +1,70 @@
+/*.full-navigation {}
+
+.uppernav {
+    overflow: hidden;
+    padding: 20px;
+    background-color: skyblue;
+}
+
+.lowernav {
+    overflow: hidden;
+    padding: 20px;
+    background-color: yellowgreen;
+}
+
+.uppernav ul,
+.lowernav ul {
+    float: right;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.uppernav ul li,
+.lowernav ul li {
+    float: left;
+    margin: 0 10px;
+}
+
+.uppernav ul li a,
+.lowernav ul li a {
+    text-decoration: none;
+    color: #000;
+}
+
+.lowernav {}
+
+.paragrap {}
+*/
+
+.full-navigation {}
+
+.uppernav {
+    background-color: aqua;
+    overflow: hidden;
+    padding: 20px;
+}
+
+.lowernav {
+    background-color: green;
+    overflow: hidden;
+    padding: 20px;
+}
+
+.uppernav ul,
+.lowernav ul {
+    list-style: none;
+    float: right;
+}
+
+.uppernav ul li,
+.lowernav ul li {
+    float: left;
+    margin: 0 20px;
+}
+
+.uppernav ul li a,
+.lowernav ul li a {
+    text-decoration: none;
+    color: #000;
+}

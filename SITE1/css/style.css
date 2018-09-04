@@ -1,0 +1,413 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background-color: #F8F8F8;
+}
+
+.header {
+    border-bottom: 1px solid gray;
+}
+
+.mid {
+    width: 95%;
+    margin: 0px auto;
+}
+
+.fullHeader {
+    padding-top: 60px;
+    padding-bottom: 100px;
+}
+
+.mid .brandLogo {
+    float: left;
+    width: 40%;
+}
+
+.mid .searchOption {
+    float: right;
+}
+
+.mid span {
+    background-color: #D54346;
+    font-size: 20px;
+    color: white;
+    padding: 35px 25px;
+    border-radius: 50%;
+}
+
+.mid h1 {
+    float: left;
+    border-right: 1px solid gray;
+    padding-right: 55px;
+}
+
+.mid p {
+    float: right;
+    margin-top: 12px;
+    color: gray;
+}
+
+.mid .searchOption input[type=text] {
+    padding: 8px 10px;
+}
+
+.searchOption button {
+    color: white;
+    background-color: #D54346;
+    margin-left: -5px;
+    border: none;
+    padding: 10px 5px;
+}
+
+.navBar {
+    width: 100%;
+    padding: 60px 0px 30px 0px;
+    position: relative;
+}
+
+.navBar .mid {
+    width: 95%;
+    margin: auto;
+
+}
+
+.navBar .mid .option {
+    width: 80%;
+    float: left;
+    position: absolute;
+    top: 15px;
+   
+}
+
+.navBar .mid .option ul {
+    padding: 0;
+    margin: 0;
+
+}
+
+.navBar .mid .option ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 10px 10px 5px 5px;
+
+
+}
+
+.navBar .mid .option ul li a {
+    text-decoration: none;
+    color: black;
+
+
+}
+
+.navBar .mid .socialButton {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+}
+
+.navBar .mid .socialButton li {
+    list-style: none;
+    display: inline-block;
+    padding: 15px 15px 15px 15px;
+    background-color: lightgrey;
+    text-align: center;
+    width: 20px;
+    line-height: 20px;
+    border-radius: 50%;
+}
+
+
+
+.slider img {
+    width: 100%;
+    height: 500px;
+}
+
+.slider {
+    text-align: center;
+}
+
+.sliderCaption p {
+    font-size: 18px;
+    text-align: center;
+    background-color: #0F0F0F;
+    color: white;
+    font-weight: 100;
+    margin-top: -5px;
+    padding-bottom: 10px;
+
+}
+
+.firstSection h1 {
+    text-align: center;
+    font-size: 40px;
+    color: #494949;
+    font-weight: 500;
+}
+
+.firstSection h2 {
+    text-align: center;
+    font-size: 30px;
+    padding-bottom: 50px;
+    color: #A0A0A0;
+    font-weight: lighter;
+}
+
+.teamSection {
+
+    border-bottom: 3px solid gray;
+    width: 100%;
+    margin: auto;
+    padding-bottom: 50px;
+}
+
+.teamSection:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.teamSection .member {
+    float: left;
+    width: 25%;
+    text-align: center;
+}
+
+.teamSection .member a {
+    text-decoration: none;
+    color: #D54346;
+
+}
+
+.teamSection .member p {
+    color: #989898
+}
+
+.secondSection {
+    width: 100%;
+    padding-top: 50px;
+    border-bottom: 3px solid #871F20;
+    padding-bottom: 50px;
+}
+
+.secondSection:after {
+    content: '';
+    clear: both;
+    display: block;
+}
+
+.secondSection .workTitle {
+    margin-left: 80px;
+    width: 30%;
+    float: left;
+}
+
+.secondSection .workTitle p {
+    font-size: 35px;
+}
+
+.secondSection .workTitle h1 {
+    font-size: 80px;
+    color: #D54346;
+    font-weight: lighter;
+}
+
+.secondSection .workImage {
+    width: 64%;
+    float: right;
+    padding-top: 50px;
+
+}
+
+.secondSection .workImage img {
+    width: 274px;
+    height: 170px;
+}
+
+.workImage .wImage {
+    width: 49%;
+    float: left;
+    text-align: center;
+
+}
+
+.wImage h1 {
+    color: #4A4A4A;
+}
+
+.wImage p {
+    color: #989898;
+    padding-bottom: 20px;
+}
+
+.wImage a {
+    text-decoration: none;
+    padding: 8px;
+    border-radius: 8px;
+    color: white;
+    background-color: #D54346;
+
+}
+
+.lastSection {
+    background-color: #D54346;
+    color: white;
+
+}
+
+.lastSection:after {
+    content: '';
+    clear: both;
+    display: block;
+}
+
+.lastSection .groups {
+    float: left;
+    width: 32%;
+    margin-top: 25px;
+}
+
+
+
+.firstDiv,
+.secondDiv,
+.thirdDiv {
+    margin-left: 20px;
+}
+
+.firstDiv h3,
+.secondDiv h3,
+.thirdDiv h3 {
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+
+.firstDiv p {
+
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 15px;
+    padding-bottom: 10px;
+}
+
+.firstDiv a {
+    text-decoration: none;
+    color: black;
+    padding-bottom: 20px;
+}
+
+.lastLink a {
+    text-decoration: none;
+    color: black;
+
+    padding-left: 20px;
+}
+
+.secondDiv ul li {
+    list-style: none;
+    border-bottom: 0.1px solid #DB6063;
+    padding: 5px 5px;
+}
+
+.secondDiv ul li a {
+    text-decoration: none;
+    color: #621616;
+    border-bottom: #D44346;
+    font-weight: 100px;
+
+}
+
+.secondDiv ul li a span {
+    color: white;
+    padding-right: 15px;
+    font-size: 10px;
+}
+
+.thirdDiv p {
+    padding-bottom: 20px;
+    font-family: 'roboto condensed';
+    font-size: 15px;
+
+}
+
+.thirdDiv input {
+    width: 80%;
+    padding: 10px 5px;
+    border-radius: 10px;
+    margin: top;
+    margin-top: 10px;
+    border: none;
+
+}
+
+.lastSection {
+    border-bottom: 1px solid lightgray;
+    padding-bottom: 20px;
+}
+
+.thirdDiv Button {
+    background-color: #871E22;
+    border: none;
+    color: white;
+    font-weight: bold;
+    padding: 8px 10px;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+
+.fullFooter .leftFooter {
+    float: left;
+    color: white;
+    margin-left: 15px;
+
+}
+
+.fullFooter {
+    background-color: #D54346;
+    padding-top: 15px;
+    position: relative;
+    padding-bottom: 15px;
+}
+
+.fullFooter:after {
+    content: '';
+    clear: both;
+    display: block;
+}
+
+.fullFooter .rightFooter {
+    position: absolute;
+    right: 20px;
+    top: 15px;
+
+}
+
+.date {
+    font-size: 12px;
+}
+
+.thirdDiv .contact h3 {
+    font-size: 14px;
+}
+
+.thirdDiv .contact .mail {
+    margin-top: -15px;
+}
+
+<--------------MEDIA---- > @media screen and (max-width:768px) {
+    .navBar ul li {
+        list-style: none;
+        border-right: 1px solid gray;
+        display: inline-block;
+        padding-right: 5px;
+
+    }
+    .navBar ul {
+        padding: 0px;
+        clear: both;
+        margin-left: 10px;
+    }
+}

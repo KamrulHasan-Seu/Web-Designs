@@ -1,0 +1,108 @@
+.navbar ul li {
+    color: white;
+
+}
+
+.navbar ul li:hover {
+    background: red;
+    border-radius: 10px;
+}
+
+#banner {
+    background: url(image/-571887087.jpg)no-repeat;
+    background-size: cover;
+    height: 700px;
+    overflow: hidden;
+}
+
+.heading {
+    margin-top: 230px;
+    overflow: hidden;
+}
+
+.lead {
+    color: aliceblue;
+}
+
+.text-underline {
+    border-bottom: 3px solid yellow;
+    width: 50%;
+    margin-left: 30%;
+}
+
+.photo {
+    background: url(image/-1634409825.jpg)no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    height: 80vh;
+    border-bottom: 80vh solid transparent;
+    border-left: 80px solid #343A40;
+}
+
+.box {
+
+    justify-content: center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+#service {
+    margin-top: 50px;
+}
+
+.customerImage {
+    border-radius: 50%;
+    height: 200px;
+}
+
+footer h1 {
+    color: white;
+}
+
+.decision {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.dialogue p {
+    text-align: center;
+    font-size: 100px;
+}
+
+#parallax {
+
+    background-image: url(image/-571887087.jpg);
+
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.parallaxPara {
+    color: aliceblue;
+    font-size: 20px;
+
+
+}
+
+.form {
+    margin-top: 35px;
+
+}
+
+iframe {
+    width: 100%;
+    height: 200px;
+    margin-top: 50px;
+}
+
+.footer {
+
+    background-color: lightslategray;
+}
+
+.footer p {
+    margin-top: 15px;
+}
