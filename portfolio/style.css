@@ -15,21 +15,26 @@
 }
 
 .navbar-brand {
-    overflow: hidden;
-    white-space: nowrap;
-    font-size: 40px;
+    font-size: 30px;
 }
-
+.mynav{
+    width: 100%;
+}
 .myNav ul li a {
     color: white !important;
     text-decoration: none;
-
+    padding: 5px;
 }
 
 .myNav ul li a:hover {
     color: white;
-    border: 1px solid white;
+    border-bottom:  1px solid white;
     text-decoration: none;
+}
+.navbar-nav{
+    position: fixed;
+    right: 150px;
+    background-color: #222;
 }
 
 .btn {
@@ -82,6 +87,7 @@
 
 .rightImageAbout {
     cursor: grab;
+    overflow: hidden;
 }
 
 .bg-about {
@@ -134,7 +140,9 @@
 
 /*About ends*/
 
-
+#work{
+    padding-top: 50px;
+}
 ul.portfolio-image {
     list-style: none;
     position: relative;
@@ -233,7 +241,7 @@ ul.portfolio-image li .desc {
 
 /*works ends*/
 #education {
-    padding-top: 50px;
+    padding-top: 80px;
 }
 
 .listing-item {
@@ -251,6 +259,9 @@ ul.portfolio-image li .desc {
 .listing-item ul li {
     float: left;
 
+}
+.content-left{
+    padding-top: 100px;
 }
 
 /*Education ends*/
@@ -325,22 +336,22 @@ ul.portfolio-image li .desc {
 }
 /*contact ends*/
 #social-links  {
-    background-color: floralwhite;
+    background-color: #757575;
     position: fixed;
     top: 300px;
     right: 0px;
-    padding: 10px 0px 10px 10px;
-    border-radius: 10px 0px 0px 10px;
+    padding: 10px;
     border: 1px solid black;
     border-right: none;
 }
 #social-links .items{
-    font-size: 25px;
+    font-size: 28px;
+    text-align: center;
 }
 #social-links .items a{
     color: black;
-    
 }
+
 #social-links .items:nth-child(1) a:hover{
     color: #e4405f;
 }
@@ -353,9 +364,23 @@ ul.portfolio-image li .desc {
 #social-links .items:nth-child(4) a:hover{
     color: #0077B5;
 }
+
 /*social-links ends*/
 #footer{
-    background-image: url(images/testimonial-bg.jpg);
+    margin-top: 50px;
+    background-color: darkslategrey;
+    color: white;
+}
+.footer{
+    text-align: center;
+}
+.footer-about{
+    font-size: 14px;
+}
+.footer-contact{
+    font-size: 14px;
+}
+.footer-social a{
     color: white;
 }
 /*footer ends*/

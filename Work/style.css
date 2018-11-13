@@ -1,0 +1,680 @@
+ @import url('https://fonts.googleapis.com/css?family=Pacifico');
+ @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i');
+
+ * {
+     padding: 0;
+     margin: 0;
+     text-decoration: none;
+     list-style: none;
+ }
+
+
+ .fullHeader {
+     background-color: #217566;
+ }
+
+
+
+ .mid {
+     width: 80%;
+     margin: auto;
+     overflow: hidden;
+ }
+
+ .head {
+     padding-bottom: 15px;
+     text-align: center;
+
+ }
+
+ .fullHeader:after {
+     content: '';
+     display: block;
+     clear: both;
+ }
+
+ .title {
+     width: 50%;
+     margin-top: 7px;
+ }
+
+ .title h3 {
+     font-size: 35px;
+     font-family: 'pacifico', cursive;
+     color: white;
+     font-weight: 500;
+     display: inline;
+ }
+
+ .title p {
+     display: inline;
+     color: #698D8A;
+     font-family: 'Open Sans', sans-serif;
+     font-size: 14px;
+     border-left: 2px solid #698D8A;
+     margin-left: 40px;
+     padding-left: 30px;
+ }
+
+ .nav {
+     width: 50%;
+     float: right;
+     position: absolute;
+     top: 0;
+     right: 0;
+     margin-top: 35px;
+
+ }
+
+ .nav ul {
+     padding: 0;
+     margin: 0;
+
+ }
+
+ .nav ul li {
+     display: inline;
+ }
+
+ .nav ul li a {
+     color: white;
+     font-family: 'Open Sans', sans-serif;
+     font-family: 'Open Sans', sans-serif;
+     padding: 0 30px;
+     font-size: 14px;
+ }
+
+
+ .firstSection img {
+     height: 600px;
+     width: 100%;
+
+ }
+
+ .adv {
+     color: white;
+     max-height: 550px;
+     position: absolute;
+     top: 300px;
+     left: 130px;
+     text-align: center;
+ }
+
+ .adv h1 {
+     font-size: 60px;
+     font-family: 'Open Sans', sans-serif;
+     font-family: 'Open Sans', sans-serif;
+     font-family: 'Open Sans', sans-serif;
+     font-weight: bold;
+ }
+
+ .adv h1 span {
+     font-size: 70px;
+     font-family: 'Open Sans', sans-serif;
+     font-family: 'Open Sans', sans-serif;
+     font-family: 'Open Sans', sans-serif;
+     font-weight: lighter;
+ }
+
+ .adv h2 {
+     font-family: 'Open Sans', sans-serif;
+     font-family: 'Open Sans', sans-serif;
+     font-family: 'Open Sans', sans-serif;
+     font-weight: 100;
+     font-size: 60px;
+ }
+
+ .adv h4 {
+     font-family: 'Open Sans', sans-serif;
+     font-size: 20px;
+     font-weight: lighter;
+ }
+
+ .secondSection .feautres {
+     text-align: center;
+     margin-top: 50px;
+ }
+
+ .secondSection .feautres img,
+ .thirdSection .works img,
+ .fourthSection .team img,
+ .sixthSection .letsDiscuss img {
+     height: 45px;
+     width: 300px;
+ }
+
+ .secondSection .feautres h2 {
+     font-family: 'Open Sans', sans-serif;
+     font-weight: 800;
+     font-size: 30px;
+     color: #0EB393;
+ }
+
+ .secondSection .feautres i {
+     margin-top: 25px;
+ }
+
+ .section1 i,
+ .section2 i,
+ .section3 i {
+     color: #0EB393;
+     font-size: 20px;
+     border: 1px solid #0EB393;
+     border-radius: 50%;
+     height: 40px;
+     width: 40px;
+     text-align: center;
+     line-height: 40px;
+     float: left;
+
+ }
+
+ .secondSection {
+     overflow: hidden;
+     background-color: #F3F7FA;
+     padding-bottom: 100px;
+
+ }
+
+ .secondSection .mid {
+     width: 70%;
+     margin: 0 auto;
+     margin-top: 30px;
+
+ }
+
+ .midSection {
+     width: 22%;
+     float: left;
+     padding-left: 20px;
+     padding-right: 40px;
+ }
+
+ .midSection h3 {
+     font-family: 'Open Sans', sans-serif;
+     font-size: 30px;
+     font-weight: 400;
+ }
+
+ .midSection p {
+     font-family: 'Open Sans', sans-serif;
+     font-size: 13px;
+     margin-top: 20px;
+     color: gray;
+
+ }
+
+ .thirdSection {
+     clear: both;
+     text-align: center;
+     padding-top: 70px;
+     overflow: hidden;
+ }
+
+
+
+ .thirdSection .works h2 {
+     font-family: 'Open Sans', sans-serif;
+     font-weight: 800;
+     font-size: 30px;
+     color: #0EB393;
+ }
+
+ .thirdSection .mid {
+     width: 80%;
+     margin: auto;
+     margin-top: 30px;
+
+ }
+
+ .thirdSection .mid p {
+     font-family: 'Open Sans', sans-serif;
+     color: dimgrey;
+
+     font-size: 19px;
+     font-weight: 600;
+ }
+
+ .thirdSection .mid ul {
+     margin-left: 260px;
+     margin-top: 50px;
+     width: 100%;
+
+ }
+
+
+ .thirdSection .mid li {
+     float: left;
+     padding: 0 20px;
+
+ }
+
+ .thirdSection .mid a {
+     font-family: 'Open Sans', sans-serif;
+     font-size: 16px;
+     font-weight: bold;
+     color: black;
+ }
+
+ .thirdSection .mid .active {
+     background-color: #0FB494;
+     color: white;
+     padding: 5px 20px;
+     border-radius: 5px;
+ }
+
+ .thirdSection .imagediv {
+     margin-top: 120px;
+     overflow: hidden;
+     clear: both;
+ }
+
+ .thirdSection .imagediv img {
+     float: left;
+     width: 25%;
+ }
+
+ .fourthSection {
+     clear: both;
+     text-align: center;
+     padding-top: 70px;
+     overflow: hidden;
+     padding-bottom: 100px;
+ }
+
+
+
+ .fourthSection .team h2 {
+     font-family: 'Open Sans', sans-serif;
+     font-weight: 800;
+     font-size: 30px;
+     color: #0EB393;
+ }
+
+ .fourthSection .mid {
+     width: 80%;
+     margin: auto;
+     margin-top: 30px;
+
+ }
+
+ .fourthSection .mid p {
+     font-family: 'Open Sans', sans-serif;
+     color: dimgrey;
+     font-size: 19px;
+     font-weight: 600;
+ }
+
+ .teamimage {
+     width: 90%;
+     margin: 0 auto;
+     margin-left: 100px;
+ }
+
+ .teamimage .img {
+     width: 22%;
+     float: left;
+     padding: 50px 10px;
+ }
+
+ .teamimage .img img {
+     height: 300px;
+     width: 250px;
+ }
+
+ .teamimage .img :nth-child(1),
+ .teamimage .img :nth-child(2),
+ .teamimage .img :nth-child(3),
+ .teamimage .img :nth-child(4) {
+     padding-left: 0px;
+ }
+
+ .img h2 {
+     font-family: 'Open Sans', sans-serif;
+     font-weight: 600;
+ }
+
+ .img h4 {
+     color: dimgray;
+     font-family: 'Open Sans', sans-serif;
+     font-size: 13px;
+     font-weight: 400;
+ }
+
+ .fifthSection {
+     overflow: hidden;
+     width: 100%;
+     position: relative;
+ }
+
+ .fifthSection img {
+     width: 100%;
+ }
+
+ /* .fundiv {
+     position: absolute;
+     top: 120px;
+     left: 150px;
+     width: 100%;
+ }*/
+
+ .fundivMid {
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     width: 100%;
+     text-align: center;
+     margin: -129px 0 0 -40%;
+ }
+
+ .fundivMid i {
+     color: white;
+     border: 1px solid lightgray;
+     font-size: 50px;
+     font-weight: lighter;
+     border-radius: 50%;
+     height: 150px;
+     width: 150px;
+     line-height: 150px;
+     text-align: center;
+ }
+
+ .fundivMid h2 {
+     font-family: 'Open Sans', sans-serif;
+     font-size: 60px;
+     color: white;
+     font-weight: 500;
+ }
+
+ .fundivMid h4 {
+     color: white;
+     font-family: 'Open Sans', sans-serif;
+     font-size: 18px;
+     font-weight: 300;
+ }
+
+ .fundivMid .icon {
+     width: 20%;
+     float: left;
+     padding: 0 0px;
+ }
+
+ .fundiv .icon:nth-child(1),
+ .fundiv .icon:nth-child(2),
+ .fundiv .icon:nth-child(3),
+ .fundiv .icon:nth-child(4) {
+     padding-left: 0px;
+ }
+
+ .sixthSection {
+     clear: both;
+     text-align: center;
+     padding-top: 70px;
+     overflow: hidden;
+
+ }
+
+
+
+ .sixthSection .letsDiscuss h2 {
+     font-family: 'Open Sans', sans-serif;
+     font-weight: 800;
+     font-size: 30px;
+     color: #0EB393;
+ }
+
+ .sixthSection .mid {
+     width: 80%;
+     margin: auto;
+     margin-top: 30px;
+
+ }
+
+ .sixthSection .mid p {
+     font-family: 'Open Sans', sans-serif;
+     color: dimgrey;
+     font-size: 19px;
+     font-weight: 600;
+ }
+
+ .sixMid {
+     width: 80%;
+     margin: 50px auto;
+     overflow: hidden;
+     position: relative;
+
+
+ }
+
+ .sixMid .address {
+     float: left;
+     width: 20%;
+     text-align: justify;
+     font-family: 'Open Sans', sans-serif;
+ }
+
+ .sixMid .address h2 {
+     font-size: 22px;
+     font-weight: 500;
+ }
+
+ .sixMid .address p {
+     font-size: 15px;
+     font-weight: 500;
+     margin-top: 20px;
+ }
+
+ .sixMid .form {
+     width: 75%;
+     font-family: 'Open Sans', sans-serif;
+     overflow: hidden;
+ }
+
+ .sixMid .form h2 {
+     font-size: 24px;
+     float: left;
+     margin-left: 50px;
+     overflow: hidden;
+ }
+
+ .formInput {
+     margin-top: 50px;
+     overflow: hidden;
+
+ }
+
+ .formInput input[type=text] {
+     width: 380px;
+     font-family: 'Open Sans', sans-serif;
+     font-size: 15px;
+     padding: 20px 0px 15px 0;
+     border: 1px solid dimgrey;
+     border-top: none;
+     border-left: none;
+     border-right: none;
+     box-shadow: none;
+ }
+
+ .formInput input[type=email] {
+     width: 350px;
+     font-family: 'Open Sans', sans-serif;
+     font-size: 15px;
+     margin-left: 10px;
+     padding: 20px 0 15px 0;
+     border: 1px solid dimgrey;
+     border-top: none;
+     border-left: none;
+     border-right: none;
+     box-shadow: none;
+ }
+
+ .formInput input[type=message] {
+
+     font-family: 'Open Sans', sans-serif;
+     font-size: 15px;
+     width: 750px;
+     padding: 30px 0 15px 0;
+     border: 1px solid dimgrey;
+     border-top: none;
+     border-left: none;
+     border-right: none;
+     box-shadow: none;
+ }
+
+ .form a {
+     color: dimgrey;
+     float: right;
+     margin-top: 20px;
+ }
+
+ .sixMid .social {
+     width: 3%;
+     overflow: hidden;
+     clear: both;
+     position: absolute;
+     top: 30px;
+     right: 0;
+
+ }
+
+ .social a {
+     color: dimgrey;
+     font-size: 20px;
+ }
+
+ hr {
+
+     border: 2px solid #072034;
+ }
+
+ .footer {
+     background-color: #1EA78D;
+     padding-bottom: 50px;
+ }
+
+ .footer .subscribe button {
+     font-family: 'Open Sans', sans-serif;
+     color: white;
+     background-color: #1EA78D;
+     border: 5px white;
+     padding: 10px;
+     border-radius: 5px;
+
+ }
+.footer .subscribe button:hover{
+    font-weight: bold;
+    background: purple;
+}
+
+ .footer:after {
+     content: '';
+     display: block;
+     clear: both;
+ }
+
+ .footer .footerMid {
+     width: 80%;
+     margin: 0 auto;
+     padding-top: 100px;
+ }
+
+ .footer .footerMid h1 {
+     color: white;
+     font-family: 'pacifico', 'cursive';
+     font-weight: 300;
+ }
+
+ .footerMid p {
+     color: white;
+     font-family: 'Open Sans', sans-serif;
+     font-size: 14px;
+     margin-top: 20px;
+     font-weight: lighter;
+
+ }
+
+ .footerMid .branding {
+     width: 20%;
+     float: left;
+     padding-right: 15px;
+ }
+
+ .footerMid .subscribe {
+     width: 25%;
+     float: left;
+     padding-right: 35px;
+ }
+
+ .footerMid .subscribe h3 {
+     font-family: 'Open Sans', sans-serif;
+     color: white;
+     font-size: 14px;
+     margin-top: 20px;
+ }
+
+ .subscribe input {
+     background-color: #1EA78D;
+     border: 2px solid white;
+     margin-top: 40px;
+     padding: 15px;
+     width: 100%;
+     border-radius: 5px;
+     margin-bottom: 10px;
+     margin-right: 15px;
+ }
+
+
+
+ .explorer {
+     width: 28%;
+     float: left;
+     margin-left: 10px;
+ }
+
+ .explorer h3 {
+     font-family: 'Open Sans', sans-serif;
+     color: white;
+     font-size: 14px;
+     margin-top: 20px;
+ }
+
+ .leftLink {
+     float: left;
+     width: 50%;
+     margin-top: 32px;
+ }
+
+ .rightLink {
+     float: right;
+     width: 50%;
+     margin-top: 32px;
+ }
+
+ .leftLink a,
+ .rightLink a {
+     display: block;
+     color: white;
+     font-family: 'Open Sans', sans-serif;
+     font-size: 14px;
+ }
+
+ .right {
+     width: 20%;
+     float: right;
+     border-left: 2px solid dimgrey;
+     margin-top: 20px;
+ }
+
+ .right p {
+     font-size: 14px;
+     padding-left: 30px;
+ }
+
+ .right h4 {
+     color: black;
+     font-family: 'Open Sans', sans-serif;
+     font-size: 15px;
+     font-weight: 400;
+     margin-top: 30px;
+     padding-left: 30px;
+ }
