@@ -4,8 +4,10 @@
 <head>
     <meta charset="UTF-8">
     <title>HOME</title>
-   <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="css/font-awesome.css">
+
+    
 </head>
 
 <body>
@@ -29,18 +31,18 @@
 
         </div>
     </div>
-    <div class="firstSection" >
+    <div class="firstSection">
         <img src="image/9.jpg" width="100%" alt="">
         <div class="adv">
 
             <h1><span>Meet</span> Kamrul!</h1>
             <h2>Professional Web designer & Developer</h2>
-        
+
         </div>
     </div>
 
     <div class="secondSection" id="feautreId">
-        <div class="feautres" >
+        <div class="feautres">
             <h2>Feautres</h2>
             <img src="image/love1.png" alt="">
         </div>
@@ -71,8 +73,8 @@
             </div>
         </div>
     </div>
-    
-    
+
+
     <div class="thirdSection" id="workId">
         <div class="works">
             <h2>Works</h2>
@@ -100,8 +102,8 @@
 
         </div>
     </div>
-    
-    
+
+
     <div class="fourthSection" id="teamId">
 
         <div class="team">
@@ -147,31 +149,23 @@
         <div class="fundiv">
             <div class="fundivMid">
                 <div class="icon">
-                    <i class="fa fa-clock-o" aria-hidden="true"></i>
-                    <h2>
-                        3200
-                    </h2>
+                    <i class="fa fa-clock-o" aria-hidden="true"></i><br>
+                    <span class="counter">3200</span>
                     <h4>HOURS OF WORK</h4>
                 </div>
                 <div class="icon">
-                    <i class="fa fa-users" aria-hidden="true"></i>
-                    <h2>
-                        120
-                    </h2>
+                    <i class="fa fa-users" aria-hidden="true"></i><br>
+                    <span class="counter">1260</span>
                     <h4>SATISFIED CLIENTS</h4>
                 </div>
                 <div class="icon">
-                    <i class="fa fa-rocket" aria-hidden="true"></i>
-                    <h2>
-                        360
-                    </h2>
+                    <i class="fa fa-rocket" aria-hidden="true"></i><br>
+                    <span class="counter">360</span>
                     <h4>PROJECTS DELIVERED</h4>
                 </div>
                 <div class="icon">
-                    <i class="fa fa-trophy" aria-hidden="true"></i>
-                    <h2>
-                        42
-                    </h2>
+                    <i class="fa fa-trophy" aria-hidden="true"></i><br>
+                    <span class="counter">42</span>
                     <h4>AWARD WON</h4>
                 </div>
             </div>
@@ -223,7 +217,7 @@
                 <h3>Subscribe</h3>
                 <input type="text">
                 <button type="submit">Subscribe Me</button>
-                
+
             </div>
             <div class="explorer">
                 <h3>Explore</h3>
@@ -247,6 +241,18 @@
             </div>
         </div>
     </div>
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="js/waypoints.min.js"></script>
+    <script src="js/jquery.counterup.min.js"></script>
+    <script>
+        jQuery(document).ready(function( $ ) {
+$('.counter').counterUp({
+delay: 20, // the delay time in ms
+time: 1000 // the speed time in ms
+});
+});
+</script>
 </body>
 
 </html>

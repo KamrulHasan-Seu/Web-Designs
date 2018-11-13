@@ -350,7 +350,11 @@
  .fifthSection img {
      width: 100%;
  }
-
+.counter{
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+}
  /* .fundiv {
      position: absolute;
      top: 120px;
