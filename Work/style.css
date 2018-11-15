@@ -84,11 +84,14 @@
      font-size: 14px;
  }
 
+ .firstSection {
+     background-color: black;
+ }
 
  .firstSection img {
      height: 600px;
      width: 100%;
-
+     opacity: 0.5;
  }
 
  .adv {
@@ -230,50 +233,37 @@
  .thirdSection .mid p {
      font-family: 'Open Sans', sans-serif;
      color: dimgrey;
-
      font-size: 19px;
      font-weight: 600;
  }
 
- .thirdSection .mid ul {
-     margin-left: 260px;
-     margin-top: 50px;
-     width: 100%;
 
+ .portfolio-filter ul {
+     padding-top: 30px;
+     padding-bottom: 20px;
  }
-
 
  .thirdSection .mid li {
-     float: left;
-     padding: 0 20px;
-
+     display: inline-block;
+     padding: 15px;
+     cursor: pointer;
  }
 
- .thirdSection .mid a {
+ .thirdSection .mid ul li  {
      font-family: 'Open Sans', sans-serif;
      font-size: 16px;
      font-weight: bold;
      color: black;
  }
 
- .thirdSection .mid .active {
-     background-color: #0FB494;
-     color: white;
-     padding: 5px 20px;
-     border-radius: 5px;
- }
-
- .thirdSection .imagediv {
-     margin-top: 120px;
-     overflow: hidden;
-     clear: both;
- }
-
- .thirdSection .imagediv img {
+ .grid .element-item {
+     width: 33%;
      float: left;
-     width: 25%;
  }
 
+.element-item .image{
+    width: 350px;;
+}
  .fourthSection {
      clear: both;
      text-align: center;
@@ -350,11 +340,13 @@
  .fifthSection img {
      width: 100%;
  }
-.counter{
-    color: white;
-    font-size: 40px;
-    font-weight: bold;
-}
+
+ .counter {
+     color: white;
+     font-size: 40px;
+     font-weight: bold;
+ }
+
  /* .fundiv {
      position: absolute;
      top: 120px;
@@ -565,10 +557,11 @@
      border-radius: 5px;
 
  }
-.footer .subscribe button:hover{
-    font-weight: bold;
-    background: purple;
-}
+
+ .footer .subscribe button:hover {
+     font-weight: bold;
+     background: purple;
+ }
 
  .footer:after {
      content: '';

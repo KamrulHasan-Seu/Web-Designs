@@ -1,9 +1,20 @@
+(function ($) {
 
-<script>
-jQuery(document).ready(function( $ ) {
-$('.counter').counterUp({
-delay: 10, // the delay time in ms
-time: 1000 // the speed time in ms
-});
-});
-</script>
+   
+
+    $('#container').imagesLoaded(function () {
+        // images have loaded
+        var $grid = $('.grid').isotope({
+            // options
+        });
+        // filter items on button click
+        $('.portfolio-filter').on('click', 'li', function () {
+            var filterValue = $(this).attr('data-filter');
+            $grid.isotope({
+                filter: filterValue
+            });
+        });
+    });
+
+
+})(jQuery);
