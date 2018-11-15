@@ -1,0 +1,29 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    padding: 0;
+    margin: 0;
+}
+.portfolio-filter{
+    margin: 30px auto;
+}
+.portfolio ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 7px;
+    border: 1px solid black;
+    cursor: pointer;
+}
+.portfolio ul li :hover{
+    background-color: tomato;
+}
+.grid{
+    width: 100%;
+}
+.image{
+    height: 250px;
+    width: 300px;
+    padding: 0 0 20px 0px;
+}
