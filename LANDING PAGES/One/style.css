@@ -1,0 +1,85 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    text-decoration: none;
+
+}
+.fullHeader{
+    background-image: url(city.jpg);
+    height: 100vh;
+    background-position: center;
+}
+.container{
+    width: 80%;
+    height: 50px;
+    margin: auto;
+    content: '';
+    display: block;
+    overflow: hidden;
+}
+.bar{
+    padding-top: 10px;
+}
+.logo{
+    width: 40%;
+    font-size: 25px;
+    float: left;
+    font-family: 'Sedgwick Ave', cursive;
+}
+.nav{
+    float: right;
+    display: inline-block;
+}
+.nav ul li{
+    float: left;
+    padding: 10px;
+    font-family: 'Quicksand', sans-serif;
+}
+.nav ul li a{
+    font-weight: bold;
+    
+}
+.nav ul li a:hover{
+    color: white;
+}
+
+.desc{
+    text-align: center;
+    padding-top: 250px;
+}
+.desc .title p{
+    color: white;
+    font-family: 'Sedgwick Ave', cursive;
+    font-size: 25px;
+}
+.button button{
+    padding: 10px;
+    background-color: tomato;
+    border: 1px solid white;;
+    color: white;
+    font-weight: 600;
+    margin-top: 10px;
+     font-family: 'Quicksand', sans-serif;
+}
+button:hover{
+    background-color: black;
+    color: aliceblue;
+    padding: 15px;
+    border-radius: 5px;
+    transition: .5s;
+    transition-timing-function: ease
+    
+}
+.count{
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 20px;
+    font-family: 'Sedgwick Ave', cursive;
+}
+.count:hover{
+    color:darkorange;
+    transition-timing-function: ease-out;
+    transition-delay: .5s;
+}
