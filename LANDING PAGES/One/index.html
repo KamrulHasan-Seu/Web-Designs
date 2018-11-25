@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title> The City </title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700|Sedgwick+Ave" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
@@ -14,45 +15,44 @@
 
     <div class="fullHeader">
         <div class="navBar">
-        <div class="container">
-            <div class="bar">
-                <div class="logo">
-                <h2>CITY</h2>
-            </div>
-            <div class="nav">
-                <ul>
-                    <li><a href="">Home</a></li>
-                    <li><a href="">About</a></li>
-                    <li><a href="">Portfolio</a></li>
-                    <li><a href="">Email</a></li>
-                    <li><a href="">Contact Us</a></li>
-                </ul>
-            </div>
+            <div class="container">
+                <div class="bar">
+                    <div class="logo">
+                        <h2>CITY</h2>
+                    </div>
+                    <div class="nav">
+                        <ul>
+                            <li><a href="">Home</a></li>
+                            <li><a href="">About</a></li>
+                            <li><a href="">Portfolio</a></li>
+                            <li><a href="">Email</a></li>
+                            <li><a href="">Contact Us</a></li>
+                        </ul>
+                    </div>
+                </div>
             </div>
         </div>
-    </div>
-    <div class="desc">
-        <div class="title">
-            <p>The most Nice beautiful and loveable city in world</p>
+        <div class="desc">
+            <div class="title">
+                <p>The most Nice beautiful and loveable city in world</p>
+            </div>
+            <div class="button">
+                <button>
+                    Contact Us
+                </button>
+            </div>
         </div>
-        <div class="button">
-            <button>
-                Contact Us
-            </button>
-        </div>
+        <div class="count"></div>
     </div>
-    <div class="count"></div>
-    </div>
-
+<div class="slider">
+    
+</div>
 </body>
-<script src="jquery-3.3.1.min.js"></script>
+
+
 <script src="jquery.countdown.js"></script>
-<script type="text/javascript">
-  $(".count")
-  .countdown("2020/01/01", function(event) {
-    $(this).text(
-      event.strftime('%D days %H:%M:%S')
-    );
-  });
-</script>
+<script src="jquery.ripples-min.js"></script>
+
+
+<script src="js/main.js"></script>
 </html>
